@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+}
+
+.see-n-say {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.images {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.images img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.story {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.selected-stories {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.selected-stories h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.selected-stories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.selected-stories ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+@media screen and (max-width: 600px) {
+    .see-n-say {
+        width: 95%;
+    }
+}

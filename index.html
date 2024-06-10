@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See'N Say Story Maker</title>
+    <meta name="author" content="David Veloza">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="see-n-say">
+        <div class="images">
+            <img src="images/all-words.png" alt="All Words" usemap="#wordmap" id="all-words-image">
+            <map name="wordmap" id="wordmap">
+                <area shape="rect" coords="10,10,70,30" alt="The turkey" data-story="The turkey">
+                <area shape="rect" coords="80,10,140,30" alt="sat on" data-story="sat on">
+                <area shape="rect" coords="150,10,220,30" alt="a funny" data-story="a funny">
+                <area shape="rect" coords="230,10,300,30" alt="goat" data-story="goat">
+                <area shape="rect" coords="310,10,400,30" alt="on the moon" data-story="on the moon">
+                <area shape="rect" coords="10,40,70,60" alt="Dad" data-story="Dad">
+                <area shape="rect" coords="80,40,140,60" alt="ate" data-story="ate">
+                <area shape="rect" coords="150,40,220,60" alt="a scary" data-story="a scary">
+                <area shape="rect" coords="230,40,300,60" alt="monkey" data-story="monkey">
+                <area shape="rect" coords="310,40,400,60" alt="on the chair" data-story="on the chair">
+                <area shape="rect" coords="10,70,70,90" alt="Mom" data-story="Mom">
+                <area shape="rect" coords="80,70,140,90" alt="saw" data-story="saw">
+                <area shape="rect" coords="150,70,220,90" alt="a goofy" data-story="a goofy">
+                <area shape="rect" coords="230,70,300,90" alt="fish" data-story="fish">
+                <area shape="rect" coords="310,70,400,90" alt="in my soup" data-story="in my soup">
+                <area shape="rect" coords="10,100,70,120" alt="The dog" data-story="The dog">
+                <area shape="rect" coords="80,100,140,120" alt="kissed" data-story="kissed">
+                <area shape="rect" coords="150,100,220,120" alt="a fat" data-story="a fat">
+                <area shape="rect" coords="230,100,300,120" alt="cow" data-story="cow">
+                <area shape="rect" coords="310,100,400,120" alt="in my shoes" data-story="in my shoes">
+            </map>
+        </div>
+        <div class="story">
+            <p id="story-text">Click a word to see the story.</p>
+        </div>
+        <div class="selected-stories">
+            <h3>Selected Stories</h3>
+            <ul id="selected-stories-list"></ul>
+            <button id="clear-selection-button">Clear Selection</button>
+            <button id="speak-all-button">Speak All</button>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
